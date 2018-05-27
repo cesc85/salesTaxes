@@ -16,8 +16,8 @@ import org.taxes.beans.Item;
 
 public class Core{
 	
-	private static final String INPUT_FILE = "G:/Progetti/mio/maven/Input.txt";
-	private static final String OUTPUT_FILE = "G:/Progetti/mio/maven/Output.txt";
+	private static final String INPUT_FILE = "src/inputs/Input.txt";
+	private static final String OUTPUT_FILE = "src/outputs/Output.txt";
 	private static final DecimalFormat df = new DecimalFormat("#,##0.00");
 	
 	public static void main(String[] args) throws IOException {
